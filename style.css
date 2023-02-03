@@ -41,6 +41,15 @@ nav {
 .navcolor {
   color: #ffffff;
 }
+li::after {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 1px;
+  margin-left: 29.5px;
+  background-color: #ffffff;
+}
+
 h4 {
   width: 546px;
   height: 43px;
